@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise GameBlack</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('matrix-356024_1208.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        h1 {
+            color: white; /* Corrigé pour être visible */
+            text-shadow: 1px 1px 3px black;
+            text-align: center;
+        }
+
+        #texte, #texte2, #texte3, #texte4 {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            color: #333; /* Texte sombre sur fond clair */
+            text-shadow: none;
+        }
+
+        /* Couleurs de fond spécifiques */
+        #texte {
+            background-color: #fff8e1; /* Jaune doux */
+        }
+
+        #texte2 {
+            background-color: #e3f2fd; /* Bleu très clair */
+        }
+        #texte3 {
+            background-color: #b5ffa3;
+        }
+
+        #texte4 {
+            background-color: #ff6655;
+        }
+
+        /* Style des boutons principaux */
+        .main-button {
+            background-color: #ff7f00;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 10px 5px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .main-button:hover {
+            background-color: #e67300;
+        }
+
+        /* Style des boutons-liens sous les textes */
+        .action-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .action-button:hover {
+            background-color: #45a049;
+        }
+
+        .action-button.discord {
+            background-color: #5865F2;
+        }
+        .action-button.discord:hover {
+            background-color: #4752c4;
+        }
+
+        .action-button.contact {
+            background-color: #f44336;
+        }
+        .action-button.contact:hover {
+            background-color: #d32f2f;
+        }
+
+        .action-button.schedule {
+            background-color: #2196F3;
+        }
+        .action-button.schedule:hover {
+            background-color: #1976D2;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #ddd;
+            text-shadow: 1px 1px 2px black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bienvenue dans notre club GameBlack ☺️👋</h1>
+    
+    <button class="main-button" id="bouton">Cours de Programmes</button>
+    <button class="main-button" id="button2">Info sur le club</button>
+    <button class="main-button" id="button3">A propos de la WLG</button>
+    <button class="main-button" id="button4">Inscription</button>
+
+    <div id="texte">
+        <p>
+            Devenir meilleur, ensemble – Par GameBlack<br><br>
+
+            Dans le monde du jeu vidéo, la performance ne se limite pas au nombre de victoires ou au rang atteint. Être un bon joueur, c’est aussi savoir s’améliorer en tant que personne. Pour progresser durablement, il faut travailler plusieurs dimensions : mentale, technique, émotionnelle et sociale.  
+
+            Tout d’abord, la gestion des émotions est essentielle. Perdre une partie ne définit pas ta valeur. Apprendre à rester calme, à analyser ses erreurs sans se dénigrer, et à rebondir après un échec, c’est gagner en résilience – une qualité utile bien au-delà des écrans.  
+
+            Ensuite, la concentration et la discipline jouent un rôle clé. Un bon joueur sait s’entraîner avec méthode, fixer des objectifs réalistes, et respecter un équilibre entre jeu, études, travail et repos. Le burnout n’est pas une fatalité : il suffit d’écouter son corps et son esprit.  
+
+            Sur le plan technique, observer, analyser et s’adapter sont des compétences précieuses. Regarder ses propres matchs, étudier les meilleurs joueurs, comprendre la mécanique du jeu… tout cela forge une intelligence stratégique.  
+
+            Mais le jeu n’est pas qu’une aventure solitaire. La communication et l’esprit d’équipe transforment un groupe de joueurs en une véritable équipe. Savoir encourager, donner des feedbacks constructifs, et rester humble en victoire comme en défaite, renforce les liens et améliore la performance collective.  
+
+            Enfin, n’oublions pas l’éthique du jeu : respecter les autres, rejeter la triche, et promouvoir un environnement sain. GameBlack n’est pas juste un club de compétition, c’est une communauté où chacun peut grandir – à son rythme, avec bienveillance.  
+
+            Alors, la prochaine fois que tu joues, demande-toi : « Qu’est-ce que j’apprends aujourd’hui ? » Car chaque session est une opportunité de devenir meilleur… dans le jeu, et dans la vie.
+        </p>
+
+        <div style="margin-top: 20px; text-align: center;">
+            <a href="cours_programmation.pdf" class="action-button">📘 Télécharger le programme</a>
+            <a href="mailto:edu@gameblack.club" class="action-button contact">✉️ Contacter le formateur</a>
+        </div>
+    </div>
+
+    <div id="texte2">
+        <p>
+            Bienvenue à GameBlack – Où le jeu devient une aventure collective !<br><br>
+
+            GameBlack est un club de jeu vidéo né de la passion pour les mondes virtuels, la compétition saine et l’apprentissage continu. Fondé en 2025, notre objectif est simple : offrir à tous les joueurs – débutants ou expérimentés – un espace bienveillant, structuré et motivant pour s’améliorer, s’épanouir et partager leur amour du jeu.
+
+            Au sein de GameBlack, nous croyons que le jeu vidéo n’est pas seulement un loisir, mais une véritable discipline qui développe la réflexion, la réactivité, la coopération et la gestion du stress. C’est pourquoi nous proposons des cours réguliers, animés avec enthousiasme, qui couvrent plusieurs aspects essentiels :  
+
+            • La technique de jeu (mécaniques, stratégies, optimisation des performances),  
+            • La gestion mentale (contrôle du tilt, concentration, résilience),  
+            • L’esprit d’équipe et la communication en multijoueur,  
+            • Et même des conseils sur l’équilibre vie-jeu pour jouer de façon saine et durable.
+
+            Que tu joues à des jeux de tir comme Valorant ou Overwatch, à des MOBA comme League of Legends, à des jeux de sport comme FIFA ou Rocket League, ou même à des jeux de stratégie ou de rôle, tu trouveras ta place à GameBlack. Nos sessions sont adaptées à ton niveau et à tes objectifs.
+
+            Le club est ouvert à tous, sans jugement, sans pression inutile. Ici, on apprend ensemble, on progresse ensemble, on s’amuse ensemble. Nous organisons aussi des tournois internes, des soirées gaming amicales, et des ateliers autour de la culture vidéoludique.
+
+            Rejoindre GameBlack, ce n’est pas juste rejoindre un club de jeu : c’est intégrer une communauté où chaque joueur compte, où chaque effort est valorisé, et où la passion guide chaque session.
+
+            Alors, si tu veux passer un palier, découvrir de nouvelles façons de jouer, ou simplement partager ta passion avec des personnes qui te comprennent…
+            GameBlack t’attend ! 💜
+        </p>
+        <div style="margin-top: 20px; text-align: center;">
+            <a href="https://discord.gg/votreserveur" target="_blank" class="action-button discord">🎮 Rejoindre Discord</a>
+            <a href="https://instagram.com/gameblack66?igsh=MWUzZm8ydjQ4djZrag==" target="_blank" class="action-button">📸 Instagram</a>
+            <br><br>
+            <a href="horaires.html" class="action-button schedule">🕒 Voir les horaires</a>
+            <a href="mailto:contact@gameblack.club" class="action-button contact">✉️ Nous écrire</a>
+        </div>
+    </div>
+
+    <div id="texte3">
+        <p>A propos de la WLG ?<br><br>
+            WWWWWWWWWWWWWWWWWWWWWWWWWW
+        </p>
+        <div style="margin-top: 20px; text-align: center;">
+            <a href="La_WLG.html" target="_blank" class="action-button">A propos de la WLG</a>
+        </div>
+    </div>
+
+    <div id="texte4">
+        <p>Pour l'inscription<br><br>
+            Remplissez le formulaire ou contactez-nous pour vous inscrire !
+        </p>
+        <div style="margin-top: 20px; text-align: center;">
+            <a href="inscription.html" target="_blank" class="action-button">📝 S'inscrire maintenant</a>
+        </div>
+    </div>
+
+    <footer>
+        © GameBlack 2025 – Tous droits réservés. Ce site est la propriété du club GameBlack.
+    </footer>
+
+    <script>
+        function hideAll() {
+            document.getElementById('texte').style.display = 'none';
+            document.getElementById('texte2').style.display = 'none';
+            document.getElementById('texte3').style.display = 'none';
+            document.getElementById('texte4').style.display = 'none';
+        }
+
+        document.getElementById('bouton').onclick = () => {
+            hideAll();
+            document.getElementById('texte').style.display = 'block';
+        };
+
+        document.getElementById('button2').onclick = () => {
+            hideAll();
+            document.getElementById('texte2').style.display = 'block';
+        };
+
+        document.getElementById('button3').onclick = () => {
+            hideAll();
+            document.getElementById('texte3').style.display = 'block';
+        };
+
+        document.getElementById('button4').onclick = () => {
+            hideAll();
+            document.getElementById('texte4').style.display = 'block';
+        };
+    </script>
+
+</body>
+</html>
